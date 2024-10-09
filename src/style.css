@@ -1,0 +1,171 @@
+#product-card:hover{
+    transform: scale(.98);
+}
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    margin-top: 1px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+/* Light mode navbar */
+.light .navbar {
+  background-color: #f8f9fa; /* Light background */
+  color: #000; /* Dark text */
+}
+
+/* Dark mode navbar */
+.dark .navbar {
+  background-color: #343a40; /* Dark background */
+  color: #fff; /* Light text */
+}
+
+.light .nav-link {
+  color: #000; /* Dark text for links */
+}
+
+.dark .nav-link {
+  color: #fff; /* Light text for links */
+}
+
+/* swiper-images */
+.swiper-image {
+  width: 100%;
+  height: auto; /* Keeps the aspect ratio intact */
+  object-fit: cover; /* Ensures the image covers the area without being stretched */
+  max-height: 550px; /* Maximum height for larger screens */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Change the text color */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a background overlay to text */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.text-overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 1.2rem;
+}
+
+/* For smaller screens, you can reduce the height */
+@media (max-width: 768px) {
+  .swiper-image {
+    max-height: 350px; /* Adjust the max-height for smaller screens */
+  }
+  .text-overlay h2 {
+    font-size: 1.5rem;
+  }
+
+  .text-overlay p {
+    font-size: 1rem;
+  }
+}
+
+/* search start */
+.dropdown-menu {
+  width: 100%;
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 8px 16px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+/* search end */
+
+
+
+
+
+
+
